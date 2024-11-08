@@ -134,6 +134,7 @@ elif authentication_status:
             #? BOTON DE DESCARGA
             # Función para convertir el DataFrame a un archivo Excel en memoria
             def to_excel(df):
+                df=df[['producto', 'categoria', 'promocion', 'fecha_estatus', 'costo_neto_producto']]
                 output = BytesIO()
                 with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
                     df.to_excel(writer, index=False, sheet_name='Ventas')
