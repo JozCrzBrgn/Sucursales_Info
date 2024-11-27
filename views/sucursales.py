@@ -43,7 +43,8 @@ elif authentication_status:
             "Pantitlán":"db04_inventario_panti",
             "Chimalhuacán":"db04_inventario_chim",
             "Tonanitla":"db04_inventario_tona",
-            "Tizayuca":"db04_inventario_tiza"
+            "Tizayuca":"db04_inventario_tiza",
+            "Chicoloapan":"db04_inventario_chic"
             }
     #? ANALISIS DE DATOS
     if sucursal != None:
