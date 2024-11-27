@@ -33,7 +33,7 @@ elif authentication_status:
     st.title("Sucursales: Ventas de Línea")
     sucursal = st.segmented_control(
         "Selecciona una sucursal", 
-        ["Agrícola Oriental", "Nezahualcóyotl", "Zapotitlán", "Oaxtepec", "Pantitlán", "Chimalhuacán", "Tonanitla", "Tizayuca"]
+        ["Agrícola Oriental", "Nezahualcóyotl", "Zapotitlán", "Oaxtepec", "Pantitlán", "Chimalhuacán", "Tonanitla", "Tizayuca", "Chicoloapan"]
         )
     tabla_inv_db = {
             "Agrícola Oriental":"db04_inventario_agri", 
